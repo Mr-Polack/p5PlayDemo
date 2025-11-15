@@ -6,7 +6,7 @@ function setup() {
   ball.x = width / 2 - 200;
   ball.diameter = 50;
 
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 50; i++) {
     let block = new Sprite(
       width / 2 + random(-5, 5),
       height / 2 + random(-5, 5),
